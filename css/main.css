@@ -21,17 +21,18 @@ h1 {
     padding-top: 30px;
     padding-bottom: 30px;
     margin: 0 auto;
-    
-
 }
 
 h2 {
     font-size: 24px;
+    padding-bottom: 20px;
 }
 
 h3 {
     font-size: 12px;
 }
+
+
 
 /******* HEADER *******/
 
@@ -54,7 +55,7 @@ main {
 .card {
     margin-top: 20px;
     margin-bottom: 20px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .image {
@@ -84,4 +85,76 @@ main {
 
 #salad {
     background-image: url('../img/watermelon-salad.jpg');
+}
+
+
+/******** TIME DIV *******/
+
+.time {
+    margin-bottom: 20px;
+    border: 1px solid #3B3B3B;
+    overflow: auto;
+}
+
+.time div {
+    float: left;
+    padding-left: 6px;
+    text-transform: uppercase;
+}
+
+.time .cook {
+    border-right: 1px solid #3B3B3B;
+    border-left: 1px solid #3B3B3B;
+}
+
+.time img {
+    width: 15px;
+    margin-right: 5px;
+    height: auto;
+}
+
+.time-details {
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.time strong {
+    font-weight: bold;
+}
+
+/********* COLUMNS ************/
+
+.columns {
+    overflow: auto;
+}
+
+
+.directions {
+    float: left;
+    width: 240px;
+}
+
+.ingredients {
+    float: left;
+    width: 205px; 
+    /* margin-right: 12px;   */
+}
+
+.recipe .ingredients h3, .recipe .directions h3 {
+    border-top: 1px solid #3B3B3B;
+    border-bottom: 1px solid #3B3B3B;
+    margin-left: 12px;
+    
+}
+
+.ingredients ul {
+    padding-left: 25px;
+    line-height: 15px;
+    list-style-type: square;
+}
+
+.directions ol {
+    padding-left: 22px;
+    line-height: 15px;
 }
